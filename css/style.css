@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.app{
+    height: 100vw;
+    width: 100vw;
+    background-image: url("/images/hero-background.png");
+}
+.nav-bar-list{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+
+}
+.nav-bar-list-right{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.nav-link{
+    list-style: none;
+}
+.nav-link-text{
+    color: #18191F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    
+}
+.nav-bar{
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    align-items: center;
+    padding: 0px 20px;
+    justify-content: space-around;
+
+}
