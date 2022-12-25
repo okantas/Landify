@@ -42,4 +42,48 @@
     padding: 0px 20px;
     justify-content: space-around;
 
+
+}
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.hero-content {
+    width: 600px ;
+    height: 250px;
+    align-items: center;
+    margin-top: 80px;
+}
+.hero-text{
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.hero-content button{ 
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 32px;
+gap: 10px;
+cursor: pointer;
+width: 150px;
+height: 40px;
+/* Brand / Purple */
+background: #8C30F5;
+border-radius: 6px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
 }
