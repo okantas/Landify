@@ -47,7 +47,7 @@
 .hero-section{
     display: flex;
     justify-content: space-around;
-    margin-top: 90px;
+    margin-top: 80px;
 }
 .hero-content {
     width: 600px ;
@@ -86,4 +86,22 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
+color: white;
+}
+
+/*LOGO*/
+.logo-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+.logo-section ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.logo-section ul li{
+    list-style: none;
+
 }
