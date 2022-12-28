@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.app{
+    height: 100vw;
+    width: 100vw;
+    background-image: url("/images/hero-background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.nav-bar-list{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+
+}
+.nav-bar-list-right{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.nav-link{
+    list-style: none;
+}
+.nav-link-text{
+    color: #18191F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    
+}
+.nav-bar{
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    align-items: center;
+    padding: 0px 20px;
+    justify-content: space-around;
+
+
+}
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.hero-content {
+    width: 600px ;
+    height: 250px;
+    align-items: center;
+    margin-top: 80px;
+}
+.hero-text{
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.hero-content button{ 
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 32px;
+gap: 10px;
+cursor: pointer;
+width: 150px;
+height: 40px;
+/* Brand / Purple */
+background: #8C30F5;
+border-radius: 6px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: white;
+}
+
+/*LOGO*/
+.logo-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+.logo-section ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.logo-section ul li{
+    list-style: none;
+
+}
