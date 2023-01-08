@@ -354,8 +354,9 @@ border-radius: 8px;
 }
 /*STATS-SECTİON*/
 .stats-section{
-    width: 1280px;
+    width: 1340x;
     height: 300px;
+    
 }
 .stats-section-wrapper{
     display: flex;
@@ -390,7 +391,7 @@ border-radius: 8px;
     width: 542px;
     height: 332px;
     justify-content:space-evenly;
-    padding-right: 100px;
+   
 }
 .stats-statics-cards{
     display: flex;
@@ -402,7 +403,7 @@ border-radius: 8px;
 }
 /*FEATURE 5*/
 .feature-5-section{
-    width: 1280px;
+    width: 1340px;
     height: 668px;
 }
 .fature-5-wrapper{
@@ -443,7 +444,7 @@ border-radius: 8px;
 }
 /*FEATURE 6*/
 .feature-6-section{
-    width: 1280px;
+    width: 1340px;
     height: 704px;
 }
 .feature-6-text{
@@ -478,6 +479,63 @@ border-radius: 8px;
     width: 1110px;
     height: 400px;
     text-align: center;
-    padding-top: 20px;
+    margin-top: 80px;
     
+}
+/*CTA section*/
+.CTA-section{
+    width: 1340px;
+    height: 491px;
+    background-color: #2EC5CE;
+}
+.CTA-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.CTA-left{
+   
+    display:grid;
+    align-items: center;
+}
+
+.CTA-text{
+    width: 540px;
+    height: 250px;
+   
+    
+}
+.CTA-text h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+
+
+}
+.CTA-text p{
+    width: 540px;
+    height: 96px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 50px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+.CTA-buttons{
+    display: flex;
+}
+.CTA-right{
+    display: flex;
+    
+}
+.CTA-second-phone {
+    height: 491px;
+   display: grid;
+   align-items: flex-end;
+   
+   
 }
